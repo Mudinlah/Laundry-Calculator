@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laundry Calculator</string>
+    <string name="logo_laundry">Logo Aplikasi</string>
+    <string name="kembali">Kembali</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="tipe_layanan">Service Type</string>
+    <string name="copyright">Copyright 2026 LaundryAplikasi</string>
+</resources>
