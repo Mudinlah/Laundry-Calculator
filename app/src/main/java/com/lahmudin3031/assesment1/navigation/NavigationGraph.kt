@@ -20,9 +20,6 @@ fun AppNavigation(
         composable(route = Screen.Home.route) {
             MainScreen(navController)
         }
-        composable(route = Screen.Home.route) {
-            MainScreen(navController)
-        }
 
         composable(route = Screen.About.route) {
             AboutScreen(navController)
@@ -31,16 +28,16 @@ fun AppNavigation(
         composable(
             route = Screen.Result.route,
             arguments = listOf(
-                navArgument("weight") { type = NavType.StringType },
-                navArgument("service") { type = NavType.StringType },
+                navArgument("berat") { type = NavType.StringType },
+                navArgument("layanan") { type = NavType.StringType },
                 navArgument("total") { type = NavType.IntType }
             )
         ) { backStackEntry ->
-            val weight = backStackEntry.arguments?.getString("weight") ?: ""
-            val service = backStackEntry.arguments?.getString("service") ?: ""
+            val berat = backStackEntry.arguments?.getString("berat") ?: ""
+            val layanan = backStackEntry.arguments?.getString("layanan") ?: ""
             val total = backStackEntry.arguments?.getInt("total") ?: 0
 
-            ResultScreen(navController, weight, service, total)
+            ResultScreen(navController, berat, layanan, total)
         }
     }
 }

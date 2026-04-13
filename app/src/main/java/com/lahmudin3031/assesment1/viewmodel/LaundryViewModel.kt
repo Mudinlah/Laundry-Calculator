@@ -4,31 +4,45 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import com.lahmudin3031.assesment1.error.BeratError
 import com.lahmudin3031.assesment1.model.LaundryData
 
 class LaundryViewModel : ViewModel() {
 
-    var weight by mutableStateOf("")
-    var service by mutableStateOf("Reguler")
-    var error by mutableStateOf("")
-    var result by mutableStateOf(LaundryData())
+    var berat by mutableStateOf("")
+    var layanan by mutableStateOf("Reguler")
+    var isSetrikaTambah by mutableStateOf(false)
+    var errorState by mutableStateOf(BeratError.NONE)
+    var hasil by mutableStateOf(LaundryData())
 
     private val hargaReguler = 5000
     private val hargaEkspres = 8000
+    private val hargaSetrika = 2000
 
     fun calculate() : Boolean {
-        val w = weight.toDoubleOrNull()
-
-        return if (w == null || w <= 0) {
-            error = "Weight must be > 0"
-            false
-        } else {
-            val price = if (service == "Reguler") hargaReguler else hargaEkspres
-            val total = (w * price).toInt()
-
-            result = LaundryData(w, service, total)
-            error = ""
-            true
+        if (berat.isBlank()) {
+            errorState = BeratError.EMPTY
+            return false
         }
+
+        val b = berat.toDoubleOrNull()
+        if (b == null) {
+            errorState = BeratError.INVALID
+            return false
+        }
+
+        if (b <= 0) {
+            errorState = BeratError.NEGATIVE
+            return false
+        }
+
+        val hargaAwal = if (layanan == "Reguler") hargaReguler else hargaEkspres
+        val hargaAkhirPerKg = if (isSetrikaTambah) hargaAwal + hargaSetrika else hargaAwal
+
+        val total = (b * hargaAkhirPerKg).toInt()
+
+        hasil = LaundryData(b, layanan, total)
+        errorState = BeratError.NONE
+        return true
     }
 }

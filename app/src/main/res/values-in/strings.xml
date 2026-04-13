@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulator Laundry</string>
+    <string name="logo_laundry">Logo Aplikasi Laundry</string>
+    <string name="kembali">Kembali</string>
+    <string name="berat_label">Berat (kg)</string>
+    <string name="tipe_layanan">Tipe Layanan</string>
+    <string name="reguler">Reguler</string>
+    <string name="ekspress">Ekspres</string>
+    <string name="tambah_setrika">Tambah Setrika (+Rp 2000/kg)</string>
+    <string name="calculate">Hitung</string>
+    <string name="detail_transaksi">Detail Transaksi</string>
+    <string name="rincian_harga">Rincian Harga</string>
+    <string name="berat_hasil">Berat: %1$s kg</string>
+    <string name="layanan_hasil">Layanan: %1$s</string>
+    <string name="total_hasil">Total Bayar: Rp %1$s</string>
+    <string name="hubungi_kurir">Hubungi Kurir</string>
+    <string name="error_empty">Input kosong, masukkan berupa angka</string>
+    <string name="error_invalid">Input harus berupa angka!</string>
+    <string name="error_negative">Berat harus > 0</string>
+    <string name="tombol_info">Tombol info</string>
+    <string name="tentang_aplikasi">
+        Laundry Calculator adalah aplikasi yang dirancang khusus untuk mempermudah perhitungan
+        estimasi biaya jasa laundry.\n\n
+        Aplikasi ini membantu pengguna dan pengusaha laundry untuk secara instan menghitung
+        total harga berdasarkan berat pakaian dan pilihan jenis layanan (Reguler atau Ekspres),
+        lengkap dengan opsi tambahan setrika.\n\n
+        Dibangun menggunakan teknologi Android modern (Kotlin &amp; Jetpack Compose), aplikasi ini
+        mengedepankan antarmuka yang bersih, fungsional, dan mudah digunakan.
+    </string>
+    <string name="copyright">Hak Cipta 2026 Lahmudin La Samudia</string>
+</resources>

@@ -1,8 +1,28 @@
 <resources>
     <string name="app_name">Laundry Calculator</string>
-    <string name="logo_laundry">Logo Aplikasi</string>
-    <string name="kembali">Kembali</string>
-    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="logo_laundry">Laundry App Logo</string>
+    <string name="kembali">Back</string>
+    <string name="berat_label">Weight (kg)</string>
     <string name="tipe_layanan">Service Type</string>
-    <string name="copyright">Copyright 2026 LaundryAplikasi</string>
+    <string name="reguler">Regular</string>
+    <string name="ekspress">Express</string>
+    <string name="tambah_setrika">Add Ironing (+Rp 2000/kg)</string>
+    <string name="calculate">Calculate</string>
+    <string name="detail_transaksi">Transaction Details</string>
+    <string name="rincian_harga">Price Details</string>
+    <string name="berat_hasil">Weight: %1$s kg</string> <string name="layanan_hasil">Service: %1$s</string>
+    <string name="total_hasil">Total Price: Rp %1$s</string>
+    <string name="hubungi_kurir">Contact Courier</string>
+    <string name="error_empty">Input is empty, please enter a number</string>
+    <string name="error_invalid">Input must be a number!</string>
+    <string name="error_negative">Weight must be > 0</string>
+    <string name="tombol_info">Info button</string>
+    <string name="tentang_aplikasi">
+        Laundry Calculator is an application specifically designed to simplify the estimation of laundry service costs.\n\n
+        This app helps users and laundry business owners instantly calculate the total price based on the weight
+        of the laundry and the selected service type (Regular or Express), complete with an additional option for ironing.\n\n
+        Built using modern Android technologies (Kotlin &amp; Jetpack Compose), this application prioritizes a clean,
+        functional, and user-friendly interface.
+    </string>
+    <string name="copyright">Copyright 2026 Lahmudin La Samudia</string>
 </resources>
