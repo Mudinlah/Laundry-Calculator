@@ -14,6 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.lahmudin3031.assesment1"
         minSdk = 23
+        //noinspection OldTargetApi
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
