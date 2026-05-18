@@ -1,4 +1,4 @@
-package com.lahmudin3031.assesment1.ui.screen
+package com.lahmudin3031.assesment2.ui.screen
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -31,8 +31,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.lahmudin3031.assesment1.R
-import com.lahmudin3031.assesment1.ui.theme.Assesment1Theme
+import com.lahmudin3031.assesment2.R
+import com.lahmudin3031.assesment2.ui.theme.Assesment2Theme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -94,13 +94,13 @@ fun AboutScreen(navController: NavHostController) {
             Spacer(modifier = Modifier.weight(1f))
 
             Text(
-                text = "Versi 1.0.0",
+                text  = stringResource(R.string.AppVersion),
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
             Spacer(modifier = Modifier.height(4.dp))
             Text(
-                text = stringResource(R.string.copyright),
+                text  = stringResource(R.string.copyright),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -112,7 +112,7 @@ fun AboutScreen(navController: NavHostController) {
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun AboutScreenPreview() {
-    Assesment1Theme {
+    Assesment2Theme {
         AboutScreen(rememberNavController())
     }
 }

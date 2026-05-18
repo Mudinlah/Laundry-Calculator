@@ -1,4 +1,4 @@
-package com.lahmudin3031.assesment1
+package com.lahmudin3031.assesment2
 
 import org.junit.Test
 
