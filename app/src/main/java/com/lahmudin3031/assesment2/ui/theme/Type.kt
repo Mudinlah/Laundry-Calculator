@@ -1,4 +1,4 @@
-package com.lahmudin3031.assesment1.ui.theme
+package com.lahmudin3031.assesment2.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.lahmudin3031.assesment1"
+    namespace = "com.lahmudin3031.assesment2"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.lahmudin3031.assesment1"
+        applicationId = "com.lahmudin3031.assesment2"
         minSdk = 23
         //noinspection OldTargetApi
         targetSdk = 36

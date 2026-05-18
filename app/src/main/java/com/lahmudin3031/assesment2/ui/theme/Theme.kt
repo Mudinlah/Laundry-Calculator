@@ -1,4 +1,4 @@
-package com.lahmudin3031.assesment1.ui.theme
+package com.lahmudin3031.assesment2.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -33,7 +33,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Assesment1Theme(
+fun Assesment2Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
