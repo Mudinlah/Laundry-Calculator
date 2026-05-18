@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Laundry Calculator</string>
     <string name="logo_laundry">Laundry App Logo</string>
     <string name="kembali">Back</string>
@@ -7,16 +7,17 @@
     <string name="reguler">Regular</string>
     <string name="ekspress">Express</string>
     <string name="tambah_setrika">Add Ironing (+Rp 2000/kg)</string>
-    <string name="calculate">Calculate</string>
-    <string name="detail_transaksi">Transaction Details</string>
-    <string name="rincian_harga">Price Details</string>
-    <string name="berat_hasil">Weight: %1$s kg</string> <string name="layanan_hasil">Service: %1$s</string>
-    <string name="total_hasil">Total Price: Rp %1$s</string>
-    <string name="hubungi_kurir">Contact Courier</string>
+    <string name="calculate" tools:keep="@string/calculate">Calculate</string>
+    <string name="detail_transaksi" tools:keep="@string/detail_transaksi">Transaction Details</string>
+    <string name="rincian_harga" tools:keep="@string/rincian_harga">Price Details</string>
+    <string name="berat_hasil" tools:keep="@string/berat_hasil">Weight: %1$s kg</string>
+    <string name="layanan_hasil" tools:keep="@string/layanan_hasil">Service: %1$s</string>
+    <string name="total_hasil" tools:keep="@string/total_hasil">Total Price: Rp %1$s</string>
+    <string name="hubungi_kurir" tools:keep="@string/hubungi_kurir">Contact Courier</string>
     <string name="error_empty">Input is empty, please enter a number</string>
     <string name="error_invalid">Input must be a number!</string>
     <string name="error_negative">Weight must be > 0</string>
-    <string name="tombol_info">Info button</string>
+    <string name="tombol_info" tools:keep="@string/tombol_info">Info button</string>
     <string name="tentang_aplikasi">
         Laundry Calculator is an application specifically designed to simplify the estimation of laundry service costs.\n\n
         This app helps users and laundry business owners instantly calculate the total price based on the weight
@@ -25,4 +26,25 @@
         functional, and user-friendly interface.
     </string>
     <string name="copyright">Copyright 2026 Lahmudin La Samudia</string>
+
+    <string name="AppVersion">App Version 1.0.0</string>
+
+    <string name="toggle_layout">Toggle Layout</string>
+    <string name="toggle_theme">Toggle Theme</string>
+    <string name="tambah_data">Add Data</string>
+    <string name="empty_state_desc">Empty State Image</string>
+    <string name="belum_ada_data_laundry">No data laundry yet!</string>
+    <string name="dengan_setrika">With Ironing</string>
+    <string name="tanpa_setrika">Without Ironing</string>
+
+    <string name="konfirmasi_hapus">Confirm Delete</string>
+    <string name="yakin_hapus">Are you sure you want to delete this laundry history?</string>
+    <string name="hapus">Delete</string>
+    <string name="batal">Cancel</string>
+    <string name="ubah_data_laundry">Edit Laundry Data</string>
+    <string name="tambah_data_laundry">Add Laundry Data</string>
+    <string name="menu">Menu</string>
+    <string name="simpan">Save</string>
+    <string name="data_dihapus">Data deleted successfully</string>
+    <string name="data_disimpan">Data saved successfully</string>
 </resources>

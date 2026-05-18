@@ -29,4 +29,25 @@
         mengedepankan antarmuka yang bersih, fungsional, dan mudah digunakan.
     </string>
     <string name="copyright">Hak Cipta 2026 Lahmudin La Samudia</string>
+
+    <string name="AppVersion">Versi Aplikasi 1.0.0</string>
+
+    <string name="toggle_layout">Ubah Tata Letak</string>
+    <string name="toggle_theme">Ubah Tema</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="empty_state_desc">Gambar Data Kosong</string>
+    <string name="belum_ada_data_laundry">Belum ada data laundry!</string>
+    <string name="dengan_setrika">Dengan Setrika</string>
+    <string name="tanpa_setrika">Tanpa Setrika</string>
+
+    <string name="konfirmasi_hapus">Konfirmasi Hapus</string>
+    <string name="yakin_hapus">Apakah Anda yakin ingin menghapus data riwayat laundry ini?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="ubah_data_laundry">Ubah Data Laundry</string>
+    <string name="tambah_data_laundry">Tambah Data Laundry</string>
+    <string name="menu">Menu</string>
+    <string name="simpan">Simpan</string>
+    <string name="data_dihapus">Data berhasil dihapus</string>
+    <string name="data_disimpan">Data berhasil disimpan</string>
 </resources>
