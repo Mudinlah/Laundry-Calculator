@@ -19,11 +19,13 @@
     <string name="error_negative">Weight must be > 0</string>
     <string name="tombol_info" tools:keep="@string/tombol_info">Info button</string>
     <string name="tentang_aplikasi">
-        Laundry Calculator is an application specifically designed to simplify the estimation of laundry service costs.\n\n
-        This app helps users and laundry business owners instantly calculate the total price based on the weight
-        of the laundry and the selected service type (Regular or Express), complete with an additional option for ironing.\n\n
-        Built using modern Android technologies (Kotlin &amp; Jetpack Compose), this application prioritizes a clean,
-        functional, and user-friendly interface.
+        Laundry Calculator has evolved into a comprehensive laundry history management application.\n\n
+        Beyond instantly calculating estimated costs based on weight, service type, and ironing options,
+        this app now allows users to save, update, and manage their transaction records locally using a robust database.\n\n
+        Personalize your experience! You can dynamically switch between Light/Dark themes and customize your
+        viewing layout (List or Grid) according to your preferences.\n\n
+        Built with modern Android Architecture (Kotlin, Jetpack Compose, Room Database, and DataStore),
+        this application guarantees a fast, seamless, and user-friendly experience.
     </string>
     <string name="copyright">Copyright 2026 Lahmudin La Samudia</string>
 
